@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Hasan";
+    src: url("fonts/static/Figtree-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Tuffaha";
+    src: url("fonts/static/Figtree-Medium.ttf");
+}
+
+body {
+    background-color: rgb(246, 208, 80);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration {
+    width: 100%;
+    border-radius: 15px;
+    margin: 0px;
+}
+
+.published {
+    color: hsl(0, 0%, 7%);
+}
+
+.learning {
+    background-color: rgb(246, 208, 80);
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
+    border-radius: 5px;
+    font-family: "Tuffaha";
+    font-weight: bold;
+}
+
+.languages {
+    margin: 1rem 0rem;
+    font-family: "Hasan";
+    font-size: 1.5rem;
+}
+
+.last {
+    color: hsl(0, 0%, 42%);
+    font-size: 2.2ch;
+}
+
+.text {
+    font-family: "Hasan";
+    margin-top: 1.5rem;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 10%;
+}
+
+.container {
+    background-color: white;
+    max-width: 350px;
+    border: 1px solid black;
+    margin: 1.5rem;
+    padding: 1.3rem;
+    box-shadow: 9px 9px black;
+    border-radius: 15px;
+}
+
+@media (max-width: 375px){
+    .container {
+        width: 90%;
+        height: 70%;
+    }
+}
