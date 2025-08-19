@@ -65,7 +65,8 @@ body {
 
 .container {
     background-color: white;
-    max-width: 350px;
+    max-width: 390px;
+    min-height: 480px;
     border: 1px solid black;
     margin: 1.5rem;
     padding: 1.3rem;
